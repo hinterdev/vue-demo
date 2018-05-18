@@ -1,5 +1,6 @@
 <template>
-  <div class="">
+  <div>
+    <h2>TodoList:</h2>
     <input type="text" v-model="inputValue">
     <button type="button" name="button" @click="handleSubmit">Submit</button>
     <ul>
